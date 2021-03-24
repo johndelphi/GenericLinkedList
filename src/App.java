@@ -2,6 +2,21 @@
 // DATE 03/07/2021
 // COSC 2436
 // DESCRIPTION generic linked list
+/**
+ * Your job in this assignment is to create a generic linked list. The linked
+ * list should have the ability to perform the following actions:
+ * 
+ * check if the list is empty check the size of the list add data to the list
+ * add data to a specific (valid) location in the list remove an item from the
+ * list based on data value outputs the contents of the list Demonstrate your
+ * functions using Doubles, Integers, and Strings.
+ * 
+ * Sample Output:
+ * 
+ * The size of the list is: 3 The members of my list: 3.3 4.5 5.34 The size of
+ * the list is: 3 The members of my list: 3 4 54 The size of the list is: 3 The
+ * members of my list: Al Carol Bob
+ */
 public class App {
     
     static class GenericLinkedList1<T>{
@@ -246,7 +261,7 @@ public class App {
             // remove carol
             ll.remove(4);
             //print the size of list after removing from list
-           System.out.println("The size of the list after removing caro is :" + "" + ll.size() + "\n");
+           System.out.println("The size of the list after removing carol is :" + "" + ll.size() + "\n");
             // replace carol with subcaro
            ll.add(4, "subcaro");
            System.out.println("after replacing caro  with subcaro the size becomes :" + " " + ll.size() + "\n" + ll);
