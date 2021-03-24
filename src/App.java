@@ -264,6 +264,13 @@ public class App {
              MyList.remove(2.76);
 
              System.out.println("The size after removing item on position 1 is :"+""+MyList.size()+"\n"+MyList);
+             /*creat a new integer list  with name
+             @myInts*/
+             GenericLinkedList1<Integer> myInts = new GenericLinkedList1<Integer>();
+             myInts.add(2);
+             myInts.add(5);
+             myInts.add(0, 7);
+             System.out.println("The size my generic list MyInts is :"+ myInts.size()+"\n" + myInts);
 
 
         }
